@@ -4,10 +4,10 @@
 \name{worldmap-package}
 \alias{worldmap}
 \alias{worldmap-package}
-\title{worldmap: The Title of the Project}
+\title{worldmap: Chloropeth World Map in the Robinson Projection}
 \description{
-A paragraph providing a full description of the project (on
-    several lines...)
+This research compendium creates a chloropeth world map in the
+    Robinson projection at the country level.
 }
 \seealso{
 Useful links:
@@ -18,7 +18,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Nicolas Casajus \email{nicolas.casajus@gmail.com} (\href{https://orcid.org/0000-0002-5537-5294}{ORCID})
+\strong{Maintainer}: Nicolas Casajus \email{nicolas.casajus@fondationbiodiversite.fr} (\href{https://orcid.org/0000-0002-5537-5294}{ORCID})
 
 }
 \keyword{internal}

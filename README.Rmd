@@ -16,57 +16,29 @@ knitr::opts_chunk$set(
 
 
 
-worldmap <img src="man/figures/hexsticker.png" height="120" align="right"/>
+worldmap
 =========================================================
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/frbcesab/worldmap/workflows/R-CMD-check/badge.svg)](https://github.com/frbcesab/worldmap/actions)
+[![R CMD check](https://github.com/FRBCesab/worldmap/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/FRBCesab/worldmap/actions/workflows/R-CMD-check.yaml)
+[![Website deployment](https://github.com/FRBCesab/worldmap/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/FRBCesab/worldmap/actions/workflows/pkgdown.yaml)
 [![CRAN status](https://www.r-pkg.org/badges/version/worldmap)](https://CRAN.R-project.org/package=worldmap)
-[![License: GPL (>= 2)](https://img.shields.io/badge/License-GPL%20%28%3E%3D%202%29-blue.svg)](https://choosealicense.com/licenses/gpl-2.0)
-[![Project Status: Concept](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
-[![LifeCycle](man/figures/lifecycle/lifecycle-experimental.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![Dependencies](https://img.shields.io/badge/dependencies-0/0-brightgreen?style=flat)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit)
+[![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![LifeCycle](man/figures/lifecycle/lifecycle-stable.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![Dependencies](https://img.shields.io/badge/dependencies-8/87-orange?style=flat)](#)
 <!-- badges: end -->
 
 
-The goal of the R package `worldmap` is to **{{ PLEASE ADD A FEW LINES }}**
+This research compendium creates a chloropeth world map in the Robinson projection 
+at the country level based on the IPBES Regions definition.
 
 
 
-## Installation
+## Usage
 
-You can install the development version from [GitHub](https://github.com/) with:
-
-```{r eval = FALSE}
-# install.packages("remotes")
-remotes::install_github("frbcesab/worldmap")
-```
-
-Then you can attach the package `worldmap`:
-
-```{r eval = FALSE}
-library("worldmap")
-```
+Clone this repository and run the `make.R`: all dependencies will be installed
+and a chloropeth map with the demo dataset will be saved in the folder **figures/**.
 
 
-
-## Overview
-
-Here is an overview of `worldmap` content: **{{ PLEASE ADD A FEW LINES }}**
-
-
-
-## Citation
-
-Please cite this package as: 
-
-> Casajus Nicolas (`r format(Sys.Date(), "%Y")`) worldmap: An R 
-package to **{{ TITLE }}**. R package version 0.0.0.9000.
-
-
-
-## Code of Conduct
-
-Please note that the `worldmap` project is released with a 
-[Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). 
-By contributing to this project, you agree to abide by its terms.
+Cheers!

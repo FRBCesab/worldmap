@@ -1,23 +1,30 @@
 Package: worldmap
 Type: Package
-Title: The Title of the Project
-Version: 0.0.0.9000
+Title: Chloropeth World Map in the Robinson Projection
+Version: 0.1.0
 Authors@R: c(
     person(given   = "Nicolas",
            family  = "Casajus",
            role    = c("aut", "cre"),
-           email   = "nicolas.casajus@gmail.com",
+           email   = "nicolas.casajus@fondationbiodiversite.fr",
            comment = c(ORCID = "0000-0002-5537-5294")))
-Description: A paragraph providing a full description of the project (on
-    several lines...)
+Description: This research compendium creates a chloropeth world map in the
+    Robinson projection at the country level.
 URL: https://github.com/frbcesab/worldmap
 BugReports: https://github.com/frbcesab/worldmap/issues
-License: GPL (>= 2)
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    devtools,
+    graticule,
+    grDevices,
+    here,
+    knitr,
+    remotes,
+    rmarkdown,
+    sf,
+    sp,
+    utils
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
-VignetteBuilder: knitr
-Suggests: 
-    knitr,
-    rmarkdown
