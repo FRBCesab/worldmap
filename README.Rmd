@@ -37,8 +37,16 @@ at the country level based on the IPBES Regions definition.
 
 ## Usage
 
-Clone this repository and run the `make.R`: all dependencies will be installed
-and a chloropeth map with the demo dataset will be saved in the folder **figures/**.
+1. Fork the clone onto your GitHub account
+2. Clone your copy
+3. Open the `.Rproj`
+4. Run the `make.R`
 
+All dependencies will be installed and a chloropeth map with the demo dataset 
+will be saved in the folder **figures/**.
+
+![](man/figures/demo.png)
+
+If all is good you can add your own dataset, adapt the script and re-launch the `make.R`.
 
 Cheers!
