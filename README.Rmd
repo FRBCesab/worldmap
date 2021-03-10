@@ -45,7 +45,7 @@ at the country level based on the IPBES Regions definition.
 All dependencies will be installed and a chloropeth map with the demo dataset 
 will be saved in the folder **figures/**.
 
-![](man/figures/demo.png)
+![Demo map](man/figures/demo.png)
 
 If all is good you can add your own dataset, adapt the script and re-launch the `make.R`.
 

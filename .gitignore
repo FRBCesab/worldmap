@@ -18,6 +18,6 @@
 
 # User-specific files ----
 README.html
-inst/doc
+/inst/doc
 data/ipbes-regions
-figures
+/figures/
